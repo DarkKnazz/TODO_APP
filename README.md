@@ -24,3 +24,5 @@ Main goal of project is to create single-page web application, that helps people
   2) Microsoft One Note
   3) Wunderlist
   4) MeisterTask
+# 5. Here how site will be look like
+![Alt text](./Mockups/Todo_App_Mockup.png?raw=true)
