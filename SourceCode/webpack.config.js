@@ -30,7 +30,21 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
-      }
+      },
+      {
+        test: /\.css$/, 
+        use: [
+            require.resolve('style-loader'),
+            {
+                loader: require.resolve('css-loader'),
+                options: {
+                    importLoaders: 1,
+                    modules: true,
+                    localIdentName: "[name]__[local]___[hash:base64:5]"
+                },
+            },
+        ],
+    },
     ]
   },
   devtool: 'cheap-module-eval-source-map'
