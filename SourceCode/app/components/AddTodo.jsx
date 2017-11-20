@@ -1,6 +1,5 @@
 var React = require("react");
 import styles from "../styles/foundation.min.css";
-import * as style from "../styles/index.css"
 
 var AddTodo = React.createClass({
   handleSubmit: function (e) {

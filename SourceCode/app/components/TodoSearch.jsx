@@ -1,5 +1,5 @@
 var React = require("react");
-import styles from "../styles/foundation.min.css";
+import styles from "../styles/foundation.css";
 
 var TodoSearch = React.createClass({
   handleSearch: function () {
@@ -10,7 +10,7 @@ var TodoSearch = React.createClass({
   },
   render: function () {
     return (
-      <div>
+      <div className={styles.pageSearch}>
         <div>
           <input type="search" ref="searchText" placeholder="Search todos" onChange={this.handleSearch} />
         </div>

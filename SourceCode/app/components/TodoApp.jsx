@@ -7,6 +7,8 @@ var AddTodo = require("./AddTodo");
 var TodoSearch = require("./TodoSearch");
 var TodoAPI = require("../api/TodoAPI");
 
+import styles from "../styles/foundation.css";
+
 var TodoApp = React.createClass({
   getInitialState: function () {
     return {
@@ -55,10 +57,13 @@ var TodoApp = React.createClass({
     var filteredTodos = TodoAPI.filterTodos(todos, showCompleted, searchText);
     return (
       <div>
-        <TodoSearch onSearch={this.handleSearch} />
-        <TodoList todos={filteredTodos} onToggle={this.handleToggle} />
-        <AddTodo onAddTodo={this.handleAddTodo} />
-      </div>
+        <h1 className={styles.pageTitle}>Todo App</h1>
+        <div className={styles.pageContainer}>
+          <TodoSearch onSearch={this.handleSearch} />
+          <TodoList todos={filteredTodos} onToggle={this.handleToggle} />
+          <AddTodo onAddTodo={this.handleAddTodo} />
+        </div>
+      </div >
     )
   }
 });

@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Games\\nodeJS\\node.exe',
+1 verbose cli   'E:\\Games\\nodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle TODO_APP@1.0.0~prestart: TODO_APP@1.0.0
+6 silly lifecycle TODO_APP@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle TODO_APP@1.0.0~start: TODO_APP@1.0.0
+8 verbose lifecycle TODO_APP@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle TODO_APP@1.0.0~start: PATH: E:\Games\nodeJS\node_modules\npm\bin\node-gyp-bin;E:\Программирование\3 курс\5 семестр\ТРиТПО\Laba_2\SourceCode\node_modules\.bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python35-32\Scripts\;C:\Python35-32\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;E:\Games\nodeJS\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\geckodriver\geckodriver.exe;C:\Program Files\MySQL\MySQL Utilities 1.6\;e:\games\altera\quartus\bin;E:\Games\Rational\common;C:\RailsInstaller\Ruby2.3.0\bin;E:\Games\JetBrains Products\Ruby23-x64\bin;C:\Users\Knazz\AppData\Local\atom\bin;C:\Users\Knazz\AppData\Roaming\npm;C:\geckodriver\geckodriver;C:\\RubyDevKit\\bin;C:\\RubyDevKit\\mingw\\bin;C:\Program Files\Heroku\bin;E:\Games\Microsoft VS Code\bin
+10 verbose lifecycle TODO_APP@1.0.0~start: CWD: E:\Программирование\3 курс\5 семестр\ТРиТПО\Laba_2\SourceCode
+11 silly lifecycle TODO_APP@1.0.0~start: Args: [ '/d /s /c', 'node server.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1018:11)
+12 verbose stack     at process.kill (internal/process.js:190:13)
+12 verbose stack     at process.listener (E:\Games\nodeJS\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (E:\Games\nodeJS\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (E:\Games\nodeJS\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd E:\Программирование\3 курс\5 семестр\ТРиТПО\Laba_2\SourceCode
+14 error Windows_NT 6.3.9600
+15 error argv "E:\\Games\\nodeJS\\node.exe" "E:\\Games\\nodeJS\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+16 error node v6.10.3
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
