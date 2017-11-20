@@ -1,5 +1,5 @@
 var React = require("react");
-import styles from "../styles/foundation.min.css";
+import styles from "../styles/foundation.css";
 
 var AddTodo = React.createClass({
   handleSubmit: function (e) {
@@ -18,7 +18,7 @@ var AddTodo = React.createClass({
       <div>
         <form onSubmit={this.handleSubmit}>
           <input type="text" ref="todoText" placeholder="What do you need to do?" />
-          <button className={[styles.button, styles.expanded].join(" ")}>Add Todo</button>
+          <button className={[styles.addButton, styles.expanded].join(" ")}>Add Todo</button>
         </form>
       </div>
     );
